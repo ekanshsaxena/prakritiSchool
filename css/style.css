@@ -222,24 +222,31 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 }
 
 .navbar-brand .logo {
-	margin-top: 10px;
+	margin-top: 68px;
 	display: inline-block;
 	background-color: white;
 }
-
+.navbar-brand .indLogo >img {
+    max-height: 142px;
+    margin-top: 6rem;
+}
 .navbar-brand .logo > img {
-	max-height:200px;
+	max-height: 200px;
+	width: 300px;
+	margin-top: 1.5rem;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 850px) {
 	.navbar-brand {
-		margin-left:15px;
+		margin-left:20px;
+	}
+	.navbar-brand .logo > img {
+		max-height: 200px;
+		width: 150px;
+		margin-top: 1.8rem;
 	}
 } 
 
-/*------------------------------------*\
-	Navigation
-\*------------------------------------*/
 #header {
 	position:relative;
 	left:0;
