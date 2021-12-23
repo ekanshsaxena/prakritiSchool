@@ -187,22 +187,37 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 \*------------------------------------*/
 .navbar-brand {
     padding: 0;
+	margin-bottom: 33vh;
 }
-
 .navbar-brand .logo {
-	margin-top: 68px;
 	display: inline-block;
 	background-color: white;
 }
-.navbar-brand .indLogo >img {
-    max-height: 142px;
-    margin-top: 6rem;
-}
+
 .navbar-brand .logo > img {
-	max-height: 200px;
-	width: 300px;
+	max-height: 250px;
+	width: 250px;
 	margin-top: 1.5rem;
 }
+
+
+.navbar-brand2 {
+    padding: 0;
+}
+.navbar-brand2 .logo {
+	display: inline-block;
+	background-color: white;
+}
+
+.navbar-brand2 .logo > img {
+	max-height: 250px;
+	width: 250px;
+	margin-top: 1.5rem;
+}
+
+
+
+
 
 @media only screen and (max-width: 850px) {
 	.navbar-brand {
@@ -412,6 +427,14 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 	display: inline-block;
 	margin: 0px 5px;
 	color: rgba(235, 235, 235, 0.25);
+}
+
+
+.head-portion{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 /*------------------------------------*\
